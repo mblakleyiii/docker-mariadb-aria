@@ -1,6 +1,6 @@
 ARG TARGETPLATFORM
 
-FROM --platform=${TARGETPLATFORM:-linux/amd64} yobasystems/alpine-mariadb
+FROM --platform=${TARGETPLATFORM:-linux/amd64} mblakleyiii/alpine-mariadb
 
 LABEL maintainer="Jamie Curnow <jc@jc21.com>"
 
